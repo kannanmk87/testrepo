@@ -4,7 +4,7 @@ import javax.ws.rs.ext.ContextResolver;
 import javax.ws.rs.ext.Provider;
 import javax.xml.bind.Unmarshaller;
 
-//@Provider
+ 
 public class CustomUnmarshaller implements ContextResolver<Unmarshaller>{
 
 	@Override
