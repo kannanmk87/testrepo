@@ -14,6 +14,6 @@ public class aspect {
 	//@Before("execution(* com.sun.jersey.api.core.HttpRequestContext.getEntity(..))")
 	@Before("execution(* com.mk.transaction.TransactionBo.insert(..))")
 	public void beforeAspectFilter(JoinPoint joinPoint) {
-		System.out.println("#####################\n\nRequest Catched\n########################");
+		
 	}
 }
